@@ -6,7 +6,7 @@ body{
   background-color: #00cec9 ;
   min-height: 500px;
   width : 50%;
-  margin: 200px auto;
+  margin: 2% auto;
   border-style: solid;
   border-color: #2d3436;
   border-radius: 10px;
@@ -21,7 +21,7 @@ body{
 }
 
 #to-do-form {
-  align-items: center;
+  margin: 2% auto;
 }
 
 #to-do-form input{
