@@ -1,23 +1,12 @@
 body{
-  background-color: #81ecec;
+  background-color: #fff;
 }
 
 .App{
-  background-color: #00cec9 ;
-  min-height: 500px;
-  width : 50%;
-  margin: 2% auto;
-  border-style: solid;
-  border-color: #2d3436;
-  border-radius: 10px;
-}
-
-#title{
-  color: #fff;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 35%;
-  font-size: larger;
+  background-color: #bdc3c7 ;
+  min-height: 100em;
+  width : 100%;
+  margin-top: -29px;
 }
 
 #to-do-form {

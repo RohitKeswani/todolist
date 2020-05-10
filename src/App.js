@@ -72,7 +72,6 @@ class App extends React.Component {
   render(){
     return (
       <div className ="App">
-        <h3 id ="title">Your own To-Do List</h3>
         <header>
           <form id="to-do-form" onSubmit={this.addItem}>
             <input type ="text" placeholder ="Enter your task here" value={this.state.currentItem.text} 
