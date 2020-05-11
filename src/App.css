@@ -5,12 +5,13 @@ body{
 .App{
   background-color: #bdc3c7 ;
   min-height: 745px;
-  width : 80%;
+  width : 75%;
   margin-left: 25%;
-  margin-top: -766px;
+  margin-top: -58.45%;
 }
 
 #to-do-form {
+  padding-left: 10%;
   margin: 2% auto;
 }
 
