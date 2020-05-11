@@ -19,6 +19,17 @@ class App extends React.Component {
     this.addItem = this.addItem.bind(this);
     this.deleteItem = this.deleteItem.bind(this);
     this.setUpdate = this.setUpdate.bind(this);
+    this.deleteAll = this.deleteAll.bind(this);
+  }
+
+  deleteAll(){
+    this.setState({
+      items:[],
+      currentItem:{
+        text:'',
+        key:''
+      }
+    })
   }
 
   handleInput(e){
@@ -77,6 +88,7 @@ class App extends React.Component {
             <input type ="text" placeholder ="Enter your task here" value={this.state.currentItem.text} 
             onChange={this.handleInput}/>
             <button type ="submit">Add Task</button>
+            <button id="clear-button" onClick={this.deleteAll}>Clear All Tasks</button>
           </form>
         </header>
         <ListItems items = {this.state.items} deleteItem={this.deleteItem} setUpdate={this.setUpdate}></ListItems>

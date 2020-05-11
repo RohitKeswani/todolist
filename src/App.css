@@ -12,7 +12,6 @@ body{
 
 #to-do-form {
   padding-left: 10%;
-  margin: 2% auto;
 }
 
 #to-do-form input{
@@ -46,4 +45,10 @@ body{
   color: #fff;
   cursor: pointer;
   font-size: medium;
+}
+
+#clear-button{
+   margin-left: 2%;
+   margin-top: 1.8%;
+   position: absolute;
 }
