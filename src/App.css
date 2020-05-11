@@ -7,7 +7,7 @@ body{
   min-height: 745px;
   width : 75%;
   margin-left: 25%;
-  margin-top: -58.45%;
+  position: absolute;
 }
 
 #to-do-form {

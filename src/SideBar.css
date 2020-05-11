@@ -2,6 +2,7 @@
     background-color: beige;
     height: 745px;
     width: 25%;
+    float:left;
 }
 
 .heading{
