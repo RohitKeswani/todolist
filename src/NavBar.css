@@ -1,21 +1,21 @@
 .TopBar{
     background-color: #c0392b;
-    height: 50px;
+    height: 75px;
     width: 100%;
-    margin-top: -17px;
+    margin-top: -3%;
 }
 
-.TopBar li{
-    display: inline;
-    float: left;
-    font-size: 18px;
+.TopBar p{
+    font-size: 30px;
     color: #fff;
-    font-weight: bold;
-    margin: 15px auto;
-    padding: 20px auto;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: medium;
+    padding-top: 1.5%;
+    margin-left: 35%;
     cursor: pointer;
 }
 
-#shiftThisElement{
-    padding-left: 35%;
+a {
+    color: #fff;
+    text-decoration: none;
 }

@@ -4,9 +4,10 @@ body{
 
 .App{
   background-color: #bdc3c7 ;
-  min-height: 100em;
-  width : 100%;
-  margin-top: -29px;
+  min-height: 745px;
+  width : 80%;
+  margin-left: 25%;
+  margin-top: -766px;
 }
 
 #to-do-form {
